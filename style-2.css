@@ -1,0 +1,406 @@
+
+html{
+	/* margin: 0px 20px 0px 20px ; */
+	margin-top: 0;
+	margin-right:20px;
+	margin-left: 20px;
+	padding:0;
+	font-family: 'Roboto Condensed', sans-serif;
+
+	/* font-family: 'Open Sans', sans-serif; */
+
+
+
+
+
+	line-height:350%;
+	background-color: #cccccc;
+}
+
+
+.story{
+	color:white;
+	font-size: 50px;
+	margin-top: 20px;
+	margin-right:25px;
+	margin-left: 10px;
+	padding:0;
+
+}
+
+/* hover-img */
+
+.monument:hover{
+	color:black;
+	transition: 0.5s;
+}
+
+.monument-img{
+	display: none;
+	width:13%;
+	top:0;
+}
+
+.monument:hover .monument-img{
+	position:fixed;
+	left:25%;
+	display:block;
+	/* z-index: -1; */
+
+}
+
+
+.abook:hover{
+	color:black;
+	transition: 0.5s;
+}
+
+.abook-img{
+	position:fixed;
+	display: none;
+	width:12%;
+	top:6%;
+	left:0;
+		/* z-index: -1; */
+
+}
+
+.abook:hover .abook-img{
+	display:block;
+
+
+}
+
+
+.silence:hover{
+	color:black;
+	transition: 0.5s;
+}
+
+.silence-img{
+	position:fixed;
+	display: none;
+	width:16%;
+	top:32%;
+	left:0;
+		/* z-index: -1; */
+
+}
+
+.silence:hover .silence-img{
+	display:block;
+
+
+}
+
+.light:hover{
+	color:black;
+	transition: 0.5s;
+}
+
+.light-img{
+	position:fixed;
+	display: none;
+	width:13%;
+	top:50%;
+	left:0;
+		/* z-index: -1; */
+
+}
+
+.light:hover .light-img{
+	display:block;
+
+
+}
+
+
+.cave:hover{
+	color:black;
+	transition: 0.5s;
+}
+
+.cave-img{
+	position:fixed;
+	display: none;
+	width:26%;
+	bottom:0%;
+	left:10%;
+		/* z-index: -1; */
+
+}
+
+.cave:hover .cave-img{
+	display:block;
+
+}
+
+.blood:hover{
+	color:black;
+	transition: 0.5s;
+}
+
+.blood-img{
+	position:fixed;
+	display: none;
+	width:20%;
+	bottom:0%;
+	left:30%;
+		/* z-index: -1; */
+
+}
+
+.blood:hover .blood-img{
+	display:block;
+
+}
+
+.butter:hover{
+	color:black;
+	transition: 0.5s;
+}
+
+.butter-img{
+	position:fixed;
+	display: none;
+	width:20%;
+	bottom:0%;
+	left:40%;
+		/* z-index: -1; */
+
+}
+
+.butter:hover .butter-img{
+	display:block;
+
+}
+
+
+
+
+.time:hover{
+	color:black;
+	transition: 0.5s;
+}
+
+.time-img{
+	position:fixed;
+	display: none;
+	width:18%;
+	top:0%;
+	right:20%;
+		/* z-index: -1; */
+
+}
+
+.time:hover .time-img{
+	display:block;
+
+}
+
+
+
+.forgot:hover{
+	color:black;
+	transition: 0.5s;
+}
+
+.forgot-img{
+	position:fixed;
+	display: none;
+	width:18%;
+	top:16%;
+	right:0%;
+		/* z-index: -1; */
+
+}
+
+.forgot:hover .forgot-img{
+	display:block;
+
+}
+
+
+.ants:hover{
+	color:black;
+	transition: 0.5s;
+}
+
+.ants-img{
+	position:fixed;
+	display: none;
+	width:15%;
+	bottom:0%;
+	right:5%;
+		z-index: 999;
+
+}
+
+.ants:hover .ants-img{
+	display:block;
+
+}
+
+
+.lover:hover{
+	color:black;
+	transition: 0.5s;
+}
+
+.lover-img{
+	position:fixed;
+	display: none;
+	width:21%;
+	bottom:15%;
+	right:0%;
+		z-index: 999;
+
+}
+
+.lover:hover .lover-img{
+	display:block;
+
+}
+
+
+
+
+.crime:hover{
+	color:black;
+	transition: 0.5s;
+}
+
+.crime-img{
+	position:fixed;
+	display: none;
+	width:10%;
+	top:0;
+	left:25%;
+	z-index: 999;
+
+}
+
+.crime:hover .crime-img{
+	display:block;
+
+}
+
+
+.his:hover{
+	color:black;
+	transition: 0.5s;
+}
+
+.his-img{
+	position:fixed;
+	display: none;
+	width:20%;
+	top:0;
+	left:25%;
+	z-index: 999;
+
+}
+
+.his:hover .his-img{
+	display:block;
+
+}
+
+
+
+
+
+
+
+
+a{
+	color:white;
+	cursor:help;
+	text-decoration: none;
+}
+
+a:hover{
+	color:black;
+	transition: 0.5s;
+}
+
+
+#more {display: none;}
+#dots {display: inline;}
+
+#more_1 {display: none;}
+#dots_2 {display: none;}
+
+#more_2 {display: none;}
+#dots_3 {display: none;}
+
+#more_3 {display: none;}
+#dots_4 {display: none;}
+
+#more_4 {display: none;}
+#dots_5 {display: none;}
+
+#more_5 {display: none;}
+#dots_6 {display: none;}
+
+#more_6 {display: none;}
+#dots_7 {display: none;}
+
+#more_7 {display: none;}
+#dots_8 {display: none;}
+
+#more_8 {display: none;}
+#dots_9 {display: none;}
+
+#more_9 {display: none;}
+#dots_10 {display: none;}
+
+#more_10 {display: none;}
+#dots_11 {display: none;}
+
+#more_11 {display: none;}
+#dots_12 {display: none;}
+
+#more_12 {display: none;}
+#dots_13 {display: none;}
+
+#more_13 {display: none;}
+#dots_14 {display: none;}
+
+#more_14 {display: none;}
+#dots_15 {display: none;}
+
+#more_15 {display: none;}
+#dots_16 {display: none;}
+
+
+
+
+
+
+
+
+
+#myBtn {
+	position:fixed;
+	bottom:2%;
+	right:2%;
+	font-size: 40px;
+	background-color:#cccccc;
+	/* font-family: 'Roboto Condensed', sans-serif; */
+	border-radius: 10px;
+	cursor:help;
+	width:7%;
+	border-width: thin;
+	border-color: black;
+	text-align: center;
+	color:white;
+
+
+}
+
+#myBtn:hover{
+	/* background-color: white; */
+	color:black;
+	transition: 0.5s;
+}

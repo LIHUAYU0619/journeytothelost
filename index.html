@@ -1,0 +1,108 @@
+<!doctype html>
+<html>
+	<title> The Journey to the Lost </title>
+<meta charset="UTF-8">
+<link rel="stylesheet"
+		  href="style.css">
+			<link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap" rel="stylesheet">
+<head>
+</head>
+<body>
+
+<p class="story">“Everything is back to normal.”
+	<span id="dots">&nbsp;</span>
+	<span id="more">As usual, he found himself sitting against the wall. </span>
+
+	<span id="dots_2">&nbsp;</span>
+  <span id="more_1">He was holding a flashlight in his left hand and a book in his right hand. Maybe he had been reading for a long time, but he suddenly forgot what he was reading. </span>
+
+	<span id="dots_3">&nbsp;</span>
+  <span id="more_2"> Maybe he didn’t notice at all.</span>
+
+
+
+
+
+</p>
+<button onclick="readMore()" id="myBtn">Next</button>
+<!-- <button onclick="readLess()" id="myBtn_2">Read Less</button> -->
+
+<script>
+function readMore() {
+  var dots = document.getElementById("dots");
+	var dots2 = document.getElementById("dots_2");
+  var moreText = document.getElementById("more");
+  var btnText = document.getElementById("myBtn");
+	var moreText_1 = document.getElementById("more_1");
+	var moreText_2 = document.getElementById("more_2");
+	var dots3 = document.getElementById("dots_3");
+
+
+	if (dots.style.display !== "none"){
+    dots.style.display = "none";
+		moreText.style.display = "inline";
+		moreText_1.style.display = "none";
+		dots2.style.display = "inline";
+		moreText_2.style.display = "none";
+		dots3.style.display = "inline";
+  }
+	else if (dots.style.display === "none" && moreText.style.display === "inline"){
+		dots.style.display = "none";
+		moreText.style.display = "inline";
+		moreText_1.style.display = "inline";
+		dots2.style.display = "none";
+		dots3.style.display = "none";
+		moreText_2.style.display = "inline";
+
+
+	}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+function readLess(){
+	var dots = document.getElementById("dots");
+	var moreText = document.getElementById("more");
+	var btnText = document.getElementById("myBtn");
+	var moreText_1 = document.getElementById("more_1")
+
+	if (moreText.style.display === "inline" && moreText_1.style.display === "none") {
+		dots.style.display = "inline";
+		moreText.style.display = "none";
+		moreText_1.style.display = "none";
+		dots2.style.display = "none";
+	}
+	else if (moreText.style.display === "inline" && moreText_1.style.display === "inline"){
+		dots.style.display = "inline";
+		moreText.style.display = "inlin3";
+		moreText_1.style.display = "none";
+		dots2.style.display = "inline";
+	}
+
+}
+
+</script>
+
+</body>
+</html>
