@@ -310,9 +310,6 @@ html{
 
 
 
-
-
-
 a{
 	color:white;
 	cursor:help;
@@ -373,6 +370,20 @@ a:hover{
 #more_15 {display: none;}
 #dots_16 {display: none;}
 
+
+p{
+	margin:0;
+	padding:0;
+}
+
+.pra{
+	/* display:inline; */
+	margin:0;
+	padding:0;
+  position: absolute;
+	/* font-size: 30px; */
+  /* left:11%; */
+}
 
 
 
